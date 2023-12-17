@@ -1,0 +1,72 @@
+body{
+    background-image: url("stadium.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-brand {
+    /* border: 1px solid black; */
+    /* box-shadow: 2px 2px rgb(98, 135, 3); */
+    /* height: 50px; */
+    /* width: 160px; */
+    /* border-radius: 10px; */
+    font-family: Rubik Scribble;
+    color: black;
+    padding-left: 5px;
+    font-size: 30px;
+    /* background-color: #acacde; */
+}
+.container-fluid{
+    /* background-color: #B8336A; */
+    font-weight: 700;
+    color: black;
+}
+#navbarSupportedContent ul li a{
+    color: black;
+}
+#navbarmain{
+    background-color: #FC9E4F;
+}
+.dropdown-menu {
+    background-color: #FC9E4F;
+}
+.custom-btn {
+    background-color: #FC9E4F;
+    color: EDD382;
+}
+nav .container-fluid .navbar-brand img {
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px white;
+}
+.card{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    margin: 5%;
+}
+.card-body:hover {
+    background-color: #FC9E4F;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid black;
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgb(235, 235, 115);
+}
+.card img:hover{
+    /* transform: scale(1.1); */
+    transition: 0.5s;
+    box-shadow: 2px black;
+}
+.card-body h6:hover {
+    color: #020122;
+    box-shadow: 2px solid;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #FF521B; /* Change to the desired hover color */
+    color: black; /* Change text color on hover */
+    transition: 0.5s;
+  }
